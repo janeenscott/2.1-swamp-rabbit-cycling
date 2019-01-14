@@ -1,0 +1,11 @@
+body{
+    max-width: 480px;
+    background: cadetblue;
+}
+
+@media (min-width: 480px) {
+    body{
+        background: pink;
+    }
+
+}
