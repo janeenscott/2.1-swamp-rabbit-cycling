@@ -1,13 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     max-width: 480px;
     background: cadetblue;
+    margin: auto;
+    padding: 20px;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     body{
         background: pink;
     }
-
+    .bike{
+        display: block;
+    }
 }
 
 img{
@@ -15,22 +23,42 @@ img{
 }
 
 header{
-    position: relative;
-    top: 0;
-    left: 0;
-
-}
-.background{
-    background-image: url("head-image.jpg");
-    background-repeat: no-repeat;
+    Display: block;
+    margin: auto;
+    text-align: center;
 }
 
-.head-image{
-    position: relative;
+p{
+    text-align: center;
 }
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+.bike{
+ float: left;
+    width: 31%;
+    padding: 5px;
+    text-align: center;
+}
+
+.etsy:after{
+    content:'';
+    clear: both;
+    display: table;
+}
+
+
 
 .logo{
-
-    top: 30px;
-    left: 70px;
+    display: block;
+    max-width: 90px;
+    margin: auto;
 }
+
