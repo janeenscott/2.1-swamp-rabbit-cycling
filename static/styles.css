@@ -9,3 +9,28 @@ body{
     }
 
 }
+
+img{
+    max-width: 100%;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.background{
+    background-image: url("head-image.jpg");
+    background-repeat: no-repeat;
+}
+
+.head-image{
+    position: relative;
+}
+
+.logo{
+
+    top: 30px;
+    left: 70px;
+}
