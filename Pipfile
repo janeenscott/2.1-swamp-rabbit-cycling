@@ -9,7 +9,7 @@ verify_ssl = true
 flask = "*"
 requests = "*"
 gunicorn = "*"
-json = "*"
+#json = "*"
 
 [requires]
 python_version = "3.7"
